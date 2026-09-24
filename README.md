@@ -46,7 +46,7 @@ The PurGE framework consists of **Stage 1, search-space pruning, and Stage 2**.
 The complete architecture of PurGE is presented in **Figure 2 of the original PurGE publication**.
 
 <p align="center">
-  <img src="images/purge_architecture.pdf"
+  <img src="images/purge_architecture.png"
        alt="PurGE Architecture"
        width="800">
 </p>
