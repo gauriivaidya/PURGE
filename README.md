@@ -10,7 +10,7 @@ Experiments with machine learning and deep learning models showed that PurGE ach
 
 ## 1. Grammatical Evolution
 
-Grammatical Evolution (GE) is an evolutionary computation technique for generating solutions using a grammar [https://link.springer.com/book/10.1007/978-1-4615-0447-4](Ryan et al., 1998). Candidate solutions are represented by a genome consisting of codons and mapped to a phenotype using a Backus–Naur Form (BNF) grammar.
+Grammatical Evolution (GE) is an evolutionary computation technique for generating solutions using a grammar [(O’Neill and Ryan)](https://link.springer.com/book/10.1007/978-1-4615-0447-4). Candidate solutions are represented by a genome consisting of codons and mapped to a phenotype using a Backus–Naur Form (BNF) grammar.
 
 The grammar defines the possible solutions that can be generated during evolution. A fitness function evaluates each generated solution, and the evolutionary process searches for solutions that maximise or minimise the defined objective.
 
