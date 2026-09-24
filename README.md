@@ -1,6 +1,6 @@
-# PurGE: Pruned Grammatical Evolution
+# PurGE
 
-**PurGE (Pruned Grammatical Evolution)** is a hyperparameter optimization framework based on Grammatical Evolution (GE) and automated search-space pruning.
+**PurGE is a hyperparameter optimization framework based on Grammatical Evolution (GE) and automated search-space pruning.
 
 PurGE uses a two-stage optimization process. Stage 1 explores the hyperparameter search space using GE and collects the performance of the evaluated configurations. The results are analysed using statistical methods to identify relevant hyperparameters, interactions between hyperparameters, and high-performing regions of the search space. These results are used to automatically generate a pruned BNF grammar. Stage 2 applies GE to the pruned search space to obtain the final hyperparameter configuration.
 
@@ -348,14 +348,6 @@ Gauri Vaidya, Meghana Kshirsagar, and Conor Ryan.
 
 ---
 
-## 11. Authors
-
-PurGE was developed by **Gauri Vaidya, Meghana Kshirsagar, and Conor Ryan** at the Department of Computer Science and Information Systems, University of Limerick, Ireland, in collaboration with **Lero — the Research Ireland Centre for Software**.
-
----
-
-## 12. Funding
+## 11. Funding
 
 This work was conducted with the financial support of **Taighde Éireann — Research Ireland** under Grant No. **18/CRT/6223**.
-
-Supported by **Lero — the Research Ireland Centre for Software**, **Research Ireland**, and the **University of Limerick**.
