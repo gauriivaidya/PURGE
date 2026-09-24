@@ -1,6 +1,6 @@
 # PurGE
 
-**PurGE is a hyperparameter optimization framework based on Grammatical Evolution (GE) and automated search-space pruning.
+PurGE is a hyperparameter optimization framework based on Grammatical Evolution (GE) and automated search-space pruning.
 
 PurGE uses a two-stage optimization process. Stage 1 explores the hyperparameter search space using GE and collects the performance of the evaluated configurations. The results are analysed using statistical methods to identify relevant hyperparameters, interactions between hyperparameters, and high-performing regions of the search space. These results are used to automatically generate a pruned BNF grammar. Stage 2 applies GE to the pruned search space to obtain the final hyperparameter configuration.
 
@@ -10,7 +10,7 @@ Experiments with machine learning and deep learning models showed that PurGE ach
 
 ## 1. Grammatical Evolution
 
-Grammatical Evolution (GE) is an evolutionary computation technique for generating solutions using a grammar (Ryan et al., 1998). Candidate solutions are represented by a genome consisting of codons and mapped to a phenotype using a **Backus–Naur Form (BNF) grammar**.
+Grammatical Evolution (GE) is an evolutionary computation technique for generating solutions using a grammar [!https://link.springer.com/book/10.1007/978-1-4615-0447-4](Ryan et al., 1998). Candidate solutions are represented by a genome consisting of codons and mapped to a phenotype using a Backus–Naur Form (BNF) grammar.
 
 The grammar defines the possible solutions that can be generated during evolution. A fitness function evaluates each generated solution, and the evolutionary process searches for solutions that maximise or minimise the defined objective.
 
@@ -28,7 +28,7 @@ The computational cost of HPO increases with the number of hyperparameters, the 
 
 ## 3. PonyGE2
 
-PurGE is implemented using **PonyGE2**, a Python implementation of Grammatical Evolution.
+PurGE is implemented using PonyGE2, a Python implementation of Grammatical Evolution.
 
 PonyGE2 provides the underlying GE functionality, including genotype-to-phenotype mapping, population initialization, selection, crossover, mutation, and fitness evaluation.
 
