@@ -46,7 +46,8 @@ The PurGE framework consists of **Stage 1, search-space pruning, and Stage 2**.
 The complete architecture of PurGE is presented in **Figure 2 of the original PurGE publication**.
 
 <img width="357" height="163" alt="download" src="https://github.com/user-attachments/assets/0b2cb9fa-c163-433c-b8b9-7e1cfeabff39" />
-> **Figure 2:** Architecture of PurGE, a two-stage Grammatical Evolution-driven approach for automatically evolving hyperparameters with search-space pruning.
+
+**Figure 2:** Architecture of PurGE, a two-stage Grammatical Evolution-driven approach for automatically evolving hyperparameters with search-space pruning.
 > See Vaidya, Kshirsagar, and Ryan (2025).
 
 ### Stage 1: Search-Space Exploration
