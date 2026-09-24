@@ -1,0 +1,13 @@
+Generation:
+5
+
+Phenotype:
+{'n_estimators': 150, 'max_depth': 4, 'min_samples_split': 20, 'min_samples_leaf': 4, 'criterion': 'entropy'}
+
+Genotype:
+[35, 39, 2, 29, 15, 3, 7, 14, 16]
+Tree:
+(<hyperparams> {'n_estimators':  (<n_estimators> 150) , 'max_depth':  (<max_depth> 4) , 'min_samples_split':  (<min_samples_split> 20) , 'min_samples_leaf':  (<min_samples_leaf> 4) , 'criterion':  (<criterion> 'entropy') })
+
+Fitness:
+1.0

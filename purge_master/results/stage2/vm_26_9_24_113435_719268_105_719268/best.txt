@@ -1,0 +1,13 @@
+Generation:
+3
+
+Phenotype:
+{'n_estimators': 40, 'max_depth': 20, 'min_samples_split': 6, 'min_samples_leaf': 1, 'criterion': 'gini'}
+
+Genotype:
+[34, 29, 14, 47, 1, 16, 0, 19, 9]
+Tree:
+(<hyperparameters> {'n_estimators':  (<n_estimators> 40) , 'max_depth':  (<max_depth> 20) , 'min_samples_split':  (<min_samples_split> 6) , 'min_samples_leaf':  (<min_samples_leaf> 1) , 'criterion':  (<criterion> 'gini') })
+
+Fitness:
+1.0

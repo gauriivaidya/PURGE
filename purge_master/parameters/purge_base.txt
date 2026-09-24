@@ -1,0 +1,19 @@
+FITNESS_FUNCTION:       purge_hpo
+DATASET_TRAIN:          Banknote/Train.csv
+DATASET_TEST:           Banknote/Test.csv
+
+# GRAMMAR_FILE, POPULATION_SIZE, GENERATIONS, EXPERIMENT_NAME are set per
+# stage by experiments/purge/purge_pipeline.py via CLI flags.
+
+SELECTION:              tournament
+TOURNAMENT_SIZE:        2
+CROSSOVER:              variable_onepoint
+CROSSOVER_PROBABILITY:  0.95
+MUTATION:               int_flip_per_codon
+MUTATION_PROBABILITY:   0.01
+INITIALISATION:         PI_grow
+MAX_INIT_TREE_DEPTH:    10
+CODON_SIZE:             50
+REPLACEMENT:            generational
+CACHE:                  False
+VERBOSE:                False
